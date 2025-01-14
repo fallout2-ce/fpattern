@@ -51,7 +51,7 @@
 *
 *	Queries about this source code can be sent to: <david@tribble.com>
 *
-* Copyright ©1997-2001 by David R. Tribble, all rights reserved.
+* Copyright ï¿½1997-2001 by David R. Tribble, all rights reserved.
 */
 
 
@@ -89,9 +89,9 @@ static const char	copyright[] =
 
 /* Local includes */
 
-#include "debug.h"
+#include "fpattern/debug.h"
 
-#include "fpattern.h"
+#include "fpattern/fpattern.h"
 
 
 /* Local constants */
