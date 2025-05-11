@@ -38,7 +38,8 @@ static const char	drt_debug_h_id[] =
 #include <stdio.h>
 
 #if DEBUG
- #define DL(e)	(opt_debug ? (void)(e) : (void)0)
+ // #define DL(e)	(opt_debug ? (void)(e) : (void)0)
+ #define DL(e)	((void)(e))
 #else
  #define DL(e)	((void)0)
 #endif
